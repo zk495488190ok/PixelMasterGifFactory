@@ -12,9 +12,13 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+WX_APP_ID = "wxb5c69435454a3b2f"
+WX_SECRET_KEY = "14020daf90e0a4eb39996aee39553dcb"
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+IMG_DIR = BASE_DIR + "/static/images/"
+STATIC_DIR = os.path.join(BASE_DIR,'static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -25,7 +29,7 @@ SECRET_KEY = '^=mr#o%q6wq7)w83f_i3gh^*2i35mln4rus!%dyr)6)k8e06)n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["0.0.0.0","10.0.0.131","172.16.8.11","127.0.0.1"]
 
 
 # Application definition
@@ -45,11 +49,12 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'untitled8.urls'
 
@@ -120,4 +125,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+STATICFILES_DIRS = [STATIC_DIR,]  # 本次新建
 STATIC_URL = '/static/'

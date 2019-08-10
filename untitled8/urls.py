@@ -19,6 +19,9 @@ from learn import views as learn_views  # new
 
 urlpatterns = [
     url(r'^$', learn_views.index),
+    url(r'^upload/', learn_views.upload),
+    url(r'^createGIF/', learn_views.createGIF),
+    url(r'^getOpenID/', learn_views.getOpenID),
     url(r'^admin/', admin.site.urls),
 ]
 
