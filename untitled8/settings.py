@@ -29,7 +29,7 @@ SECRET_KEY = '^=mr#o%q6wq7)w83f_i3gh^*2i35mln4rus!%dyr)6)k8e06)n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0","10.0.0.131","172.16.8.11","127.0.0.1"]
+ALLOWED_HOSTS = ['www.zkpmcc.cn',"10.0.0.131",'127.0.0.1','49.235.38.182 ','localhost']
 
 
 # Application definition
