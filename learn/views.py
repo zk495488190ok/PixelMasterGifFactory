@@ -56,7 +56,7 @@ def createGIF(request):
         data = dataArr[i * dataLen:(i + 1) * dataLen]
         createDataArr.append(data)
 
-    httpPath = settings.STATIC_URL + openid + ".gif"
+    httpPath = "static/images/" + openid + ".gif"
     filePath = "./" + httpPath
     status = pixel.createGIFWithRGBADataArr(createDataArr,15,filePath,speed /1000)
     if status == -1:
@@ -64,7 +64,7 @@ def createGIF(request):
     elif status == 1:
         return  response(201,"","不支持单帧图片哦")
     else:
-        retGifUrl = 'https://' + request.get_host() + httpPath
+        retGifUrl = 'http://' + request.get_host() + "/" + httpPath
         print(retGifUrl)
         return response(200, retGifUrl, "")
 
