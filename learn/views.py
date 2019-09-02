@@ -62,7 +62,7 @@ def createGIF(request):
     if status == -1:
         return response(201,"","zoom参数不能小于1的哦")
     elif status == 1:
-        return  response(201,"","不支持单帧图片哦")
+        return  response(201,"","不支持单帧图片哦s")
     else:
         retGifUrl = 'https://' + request.get_host() + "/" + httpPath
         print(retGifUrl)
