@@ -15,8 +15,6 @@ import requests
 # Create your views here.
 # coding:utf-8
 
-
-
 def index(request):
     return response(200,"欢迎访问,可别干坏事哦!^_^","")
 
@@ -66,7 +64,7 @@ def createGIF(request):
     elif status == 1:
         return  response(201,"","不支持单帧图片哦")
     else:
-        retGifUrl = request._current_scheme_host + "/" + httpPath
+        retGifUrl = 'https://' + request.get_host() + '/' + httpPath
         print(retGifUrl)
         return response(200, retGifUrl, "")
 
