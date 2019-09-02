@@ -103,11 +103,11 @@ class pixelutils:
         w, h = im.size
         if matrixSize > w | matrixSize > h | matrixSize == w | matrixSize == h:
             return dataArr
-        offset = float(w / matrixSize)
+        offset = int(w / matrixSize)
         for y in range(0, matrixSize):
             for x in range(0, matrixSize):
-                centerX = int(x * offset + offset / 2)
-                centerY = int(y * offset + offset / 2)
+                centerX = int((x * offset) + (offset / 2))
+                centerY = int((y * offset) + (offset / 2))
                 pixel = im.getpixel((centerX, centerY))
                 dataArr.append(pixel[0])
                 dataArr.append(pixel[1])
@@ -125,6 +125,7 @@ class pixelutils:
             img = self.cropCenterRECImg(item)
             pixelDataArr = self.imgConvertMatrix(img, matrixSize)
             retDataArr.append(pixelDataArr)
+
         return retDataArr
 
     """根据颜色数据 倍放生成 GIF"""
