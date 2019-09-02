@@ -17,7 +17,7 @@ WX_SECRET_KEY = "14020daf90e0a4eb39996aee39553dcb"
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMG_DIR = BASE_DIR + "/static/images/"
+IMG_DIR = BASE_DIR + "/static/"
 # STATIC_DIR = os.path.join(BASE_DIR,IMG_DIR)
 
 # Quick-start development settings - unsuitable for production
@@ -126,4 +126,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATICFILES_DIRS = [IMG_DIR,]  # 本次新建
-STATIC_URL = '/static/images/'
+STATIC_URL = '/static/'
