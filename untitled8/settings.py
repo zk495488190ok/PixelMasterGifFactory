@@ -15,6 +15,10 @@ import os
 WX_APP_ID = "wxb5c69435454a3b2f"
 WX_SECRET_KEY = "14020daf90e0a4eb39996aee39553dcb"
 
+
+PIC_FACTORY_WX_APP_ID = "wx2628a951f2aebee0"
+PIC_FACTORY_WX_SECRET_KEY = "1a18a662f5c2022c0eb7938f7fe35202"
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG_DIR = BASE_DIR + "/static/"
@@ -125,5 +129,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATICFILES_DIRS = [STATIC_DIR,]  # 本次新建
+# STATICFILES_DIRS = [STATIC_DIR,]  # 本次新建
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR, "static")
+]
 STATIC_URL = '/static/'

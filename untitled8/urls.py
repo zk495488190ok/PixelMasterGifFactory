@@ -16,12 +16,23 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from learn import views as learn_views  # new
+from learn.picaifactory import action as picaiafactory_actions  # new
 
 urlpatterns = [
+
+    # 像素工厂
     url(r'^$', learn_views.index),
     url(r'^upload/', learn_views.upload),
     url(r'^createGIF/', learn_views.createGIF),
     url(r'^getOpenID/', learn_views.getOpenID),
+
+    # 图片工厂
+    url(r'^picai/styletransform/', picaiafactory_actions.styletransform),
+    url(r'^picai/getOpenID/', picaiafactory_actions.getOpenID),
+    url(r'^picai/upload/', picaiafactory_actions.upload),
+    url(r'^picai/recoreUinfo/', picaiafactory_actions.recoreUinfo),
+    url(r'^picai/recoredFuncUse/', picaiafactory_actions.recoredFuncUse),
+
     url(r'^admin/', admin.site.urls),
 ]
 
