@@ -51,9 +51,9 @@ class picaiutil:
         ## 读入原始图片，调整图片至所需尺寸，然后获取图片的宽度和高度
         img = cv2.imread(pathIn)
         (h, w) = img.shape[:2]
-        if width is not None:
-            img = cv2.resize(img, (width, round(width * h / w)), interpolation=cv2.INTER_CUBIC)
-            (h, w) = img.shape[:2]
+        # if width is not None:
+        #     img = cv2.resize(img, (width, round(width * h / w)), interpolation=cv2.INTER_CUBIC)
+        #     (h, w) = img.shape[:2]
 
         # ## 从本地加载预训练模型
         # print('加载预训练模型......')
