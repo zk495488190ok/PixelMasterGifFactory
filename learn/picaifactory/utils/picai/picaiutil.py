@@ -3,15 +3,43 @@
 import cv2
 import time
 import glob
+import threading
 from PIL import Image
 
 class picaiutil:
+    # _instance_lock = threading.Lock()
+    # _models = {}
+
+    def __init__(self):
+        pass
+
+    # def __new__(cls, *args, **kwargs):
+    #     if not hasattr(picaiutil, "_instance"):
+    #         with picaiutil._instance_lock:
+    #             if not hasattr(picaiutil, "_instance"):
+    #                 picaiutil._instance = object.__new__(cls)
+    #                 picaiutil._instance.initModels()
+    #     return picaiutil._instance
+
+    def initModels(self):
+        models = {}
+        print('初始化训练模型')
+        start = time.time()
+        for url in glob.glob('./static/picaifactory/models/*.t7'):
+            net = cv2.dnn.readNetFromTorch(url)
+            models[url] = net
+        end = time.time()
+        print('初始化完成')
+        print("用时：{:.2f}秒".format(end - start))
+        return models
 
     def style_transfer(self,pathIn='',
                        pathOut='',
-                       model='',
+                       net=None,
                        width=None,
                        jpg_quality=80):
+        if net == None:
+            return "model 不能为空"
         '''
         pathIn: 原始图片的路径
         pathOut: 风格化图片的保存路径
@@ -27,13 +55,14 @@ class picaiutil:
             img = cv2.resize(img, (width, round(width * h / w)), interpolation=cv2.INTER_CUBIC)
             (h, w) = img.shape[:2]
 
-        ## 从本地加载预训练模型
-        print('加载预训练模型......')
-        net = cv2.dnn.readNetFromTorch(model)
-        print('加载预训练模型完成......')
+        # ## 从本地加载预训练模型
+        # print('加载预训练模型......')
+        # net = cv2.dnn.readNetFromTorch(model)
+        # print('加载预训练模型完成......')
 
         ## 将图片构建成一个blob：设置图片尺寸，将各通道像素值减去平均值（比如ImageNet所有训练样本各通道统计平均值）
         ## 然后执行一次前馈网络计算，并输出计算所需的时间
+        print("正在风格迁移...")
         blob = cv2.dnn.blobFromImage(img, 1.0, (w, h), (103.939, 116.779, 123.680), swapRB=False, crop=False)
         net.setInput(blob)
         start = time.time()

@@ -14,6 +14,8 @@ import requests
 from learn.picaifactory.utils.picai.picaiutil import picutil
 from learn.picaifactory.utils.sql.sqldb import db
 
+models = picutil.initModels()
+
 
 # # # # # # # # # # # # 从腾讯接口获取OpenID # # # # # # # # # # # #
 def getOpenID(request):
@@ -95,7 +97,7 @@ def styletransform(request):
 
     httpPath = "./static/picaifactory/img/" + openid + ".jpg";
     outPath = "./static/picaifactory/result/" + openid + ".jpg";
-    picutil.style_transfer(httpPath,outPath,model,width=1024)
+    picutil.style_transfer(httpPath,outPath,models[model],width=1024)
 
     returl = "static/picaifactory/result/" + openid + ".jpg";
     return response(200,returl,"")
