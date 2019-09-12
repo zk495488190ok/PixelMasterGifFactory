@@ -14,9 +14,6 @@ import requests
 from learn.picaifactory.utils.picai.picaiutil import picutil
 from learn.picaifactory.utils.sql.sqldb import db
 
-models = picutil.initModels()
-
-
 # # # # # # # # # # # # 从腾讯接口获取OpenID # # # # # # # # # # # #
 def getOpenID(request):
     code = request.GET['code']
@@ -86,21 +83,18 @@ def upload(request):
 
 # # # # # # # # # # # #  风格学习  # # # # # # # # # # # #
 def styletransform(request):
-    mode_name = request.GET["mode_name"]
+    modeName = request.GET["mode_name"]
     openid = request.GET["openid"]
-    if len(openid) == 0 or len(mode_name) == 0:
+    if len(openid) == 0 or len(modeName) == 0:
         return response(201, "", "别瞎几把搞!")
 
-    model = "./static/picaifactory/models/" + mode_name + ".t7"
-    if os.path.exists(model) == False:
-        return response(201, "", "别瞎几把搞!")
-
-    httpPath = "./static/picaifactory/img/" + openid + ".jpg";
-    outPath = "./static/picaifactory/result/" + openid + ".jpg";
-    picutil.style_transfer(httpPath,outPath,models[model],width=1024)
-
-    returl = "static/picaifactory/result/" + openid + ".jpg";
-    return response(200,returl,"")
+    imgName = openid + ".jpg";
+    resMsg = picutil.styleTransform(modeName,imgName)
+    if len(resMsg) > 0:
+        return response(201, "", resMsg)
+    else:
+        returl = "static/picaifactory/result/" + openid + ".jpg";
+        return response(200, returl, "")
 
 
 
