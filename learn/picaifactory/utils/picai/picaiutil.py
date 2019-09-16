@@ -57,7 +57,7 @@ class picaiutil:
         # Get image's height and width.
         height = 0
         width = 0
-        print('正在转换...');
+        print('正在转换...')
         with open(imgPath, 'rb') as img:
             with tf.compat.v1.Session().as_default() as sess:
                 if imgPath.lower().endswith('png'):
