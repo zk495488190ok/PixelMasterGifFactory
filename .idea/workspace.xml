@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" afterDir="false" />
     </list>
@@ -60,7 +59,7 @@
           <entry key="cell" value="19" />
           <entry key="dummy" value="35" />
           <entry key="md" value="21" />
-          <entry key="py" value="10306" />
+          <entry key="py" value="10357" />
           <entry key="sql" value="362" />
           <entry key="xml" value="22" />
         </counts>
@@ -69,7 +68,7 @@
         <counts>
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="10305" />
+          <entry key="Python" value="10356" />
           <entry key="SQL" value="49" />
           <entry key="Scratch" value="333" />
           <entry key="XML" value="22" />
@@ -121,15 +120,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="334">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <marker date="1568618952481" expanded="true" signature="1028:1371" ph="..." />
-                <marker date="1568618952481" expanded="true" signature="1487:2002" ph="..." />
+                <marker date="1568621085242" expanded="true" signature="1039:1382" ph="..." />
+                <marker date="1568621085242" expanded="true" signature="1498:2013" ph="..." />
+                <marker date="1568621085242" expanded="true" signature="3141:3710" ph="..." />
               </folding>
             </state>
           </provider>
@@ -162,15 +162,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="102">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
                 <element signature="e#770#1098#0" />
-                <marker date="1568619113829" expanded="true" signature="478:489" ph="..." />
+                <marker date="1568620909641" expanded="true" signature="489:500" ph="..." />
               </folding>
             </state>
           </provider>
@@ -269,8 +268,8 @@
         <option value="$PROJECT_DIR$/untitled8/settings.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" />
         <option value="$PROJECT_DIR$/learn/tests.py" />
-        <option value="$PROJECT_DIR$/learn/picaifactory/action.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" />
+        <option value="$PROJECT_DIR$/learn/picaifactory/action.py" />
       </list>
     </option>
   </component>
@@ -632,16 +631,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="999" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.2954796" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19294377" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.24255788" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24255788" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.20396914" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -910,22 +909,7 @@
     <entry file="file://$PROJECT_DIR$/static/images/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <marker date="1568618952481" expanded="true" signature="1028:1371" ph="..." />
-            <marker date="1568618952481" expanded="true" signature="1487:2002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/reader.py">
@@ -938,14 +922,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="e#25#35#0" expanded="true" />
             <element signature="e#770#1098#0" />
-            <marker date="1568619113829" expanded="true" signature="478:489" ph="..." />
+            <marker date="1568620909641" expanded="true" signature="489:500" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <marker date="1568621085242" expanded="true" signature="1039:1382" ph="..." />
+            <marker date="1568621085242" expanded="true" signature="1498:2013" ph="..." />
+            <marker date="1568621085242" expanded="true" signature="3141:3710" ph="..." />
           </folding>
         </state>
       </provider>

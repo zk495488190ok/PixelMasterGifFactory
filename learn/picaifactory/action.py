@@ -10,6 +10,7 @@ import json
 import os
 import io
 import requests
+import ssl
 
 from learn.picaifactory.utils.picai.picaiutil import picutil
 from learn.picaifactory.utils.sql.sqldb import db
@@ -90,18 +91,22 @@ def upload(request):
 
 # # # # # # # # # # # #  风格学习  # # # # # # # # # # # #
 def styletransform(request):
-    modeName = request.GET["mode_name"]
-    openid = request.GET["openid"]
-    if len(openid) == 0 or len(modeName) == 0:
-        return response(201, "", "别瞎几把搞!")
 
-    imgName = openid + ".jpg";
-    resMsg = picutil.styleTransform(modeName,imgName)
-    if len(resMsg) > 0:
-        return response(201, "", resMsg)
-    else:
-        returl = "static/picaifactory/result/" + openid + ".jpg";
-        return response(200, returl, "")
+    try:
+        modeName = request.GET["mode_name"]
+        openid = request.GET["openid"]
+        if len(openid) == 0 or len(modeName) == 0:
+            return response(201, "", "别瞎几把搞!")
+
+        imgName = openid + ".jpg";
+        resMsg = picutil.styleTransform(modeName, imgName)
+        if len(resMsg) > 0:
+            return response(201, "", resMsg)
+        else:
+            returl = "static/picaifactory/result/" + openid + ".jpg";
+            return response(200, returl, "")
+    except Exception as err:
+        return response(201, "", "我太难了,请稍后再试!")
 
 
 

@@ -4,6 +4,7 @@ import cv2
 import time
 import os
 import glob
+import ssl
 
 import threading
 from PIL import Image
