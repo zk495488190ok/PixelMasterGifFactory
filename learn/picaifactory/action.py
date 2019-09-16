@@ -81,6 +81,8 @@ def upload(request):
         # 分块写入
         for chunk in file.chunks():
             f.write(chunk)
+        picutil.compress_image(filePath,filePath)
+
     return response(200,httpPath,"")
 
 

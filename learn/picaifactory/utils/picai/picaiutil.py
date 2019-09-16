@@ -46,8 +46,6 @@ class picaiutil:
         imgPath = os.path.abspath('static/picaifactory/img/' + imgName)
         resultPath = os.path.abspath('static/picaifactory/result/')
 
-        #转换前压缩图片
-        self.compress_image(imgPath,imgPath)
 
         if os.path.exists(modelPath) is False:
             return "训练模型不存在!"
@@ -64,10 +62,11 @@ class picaiutil:
                     image = sess.run(tf.image.decode_png(img.read()))
                 else:
                     image = sess.run(tf.image.decode_jpeg(img.read()))
+
                 height = image.shape[0]
                 width = image.shape[1]
-                if min(width,height) > 500 :
-                    scale = 500 / min(width,height);
+                if width * height > 400000 :
+                    scale = 800 / max(width,height);
                     width = int(width * scale);
                     height = int(height * scale);
 

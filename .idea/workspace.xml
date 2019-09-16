@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
           <entry key="cell" value="19" />
           <entry key="dummy" value="35" />
           <entry key="md" value="21" />
-          <entry key="py" value="10195" />
+          <entry key="py" value="10306" />
           <entry key="sql" value="362" />
           <entry key="xml" value="22" />
         </counts>
@@ -70,7 +69,7 @@
         <counts>
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="10194" />
+          <entry key="Python" value="10305" />
           <entry key="SQL" value="49" />
           <entry key="Scratch" value="333" />
           <entry key="XML" value="22" />
@@ -81,9 +80,9 @@
           <entry key="GIF" value="2" />
           <entry key="django_migrations" value="1" />
           <entry key="gif" value="19" />
-          <entry key="jpg" value="24" />
+          <entry key="jpg" value="27" />
           <entry key="md" value="2" />
-          <entry key="py" value="156" />
+          <entry key="py" value="157" />
           <entry key="sql" value="16" />
           <entry key="sqlite3-journal" value="2" />
           <entry key="sqlite_master" value="4" />
@@ -98,10 +97,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="30" />
-          <entry key="Image" value="45" />
+          <entry key="Image" value="48" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="156" />
+          <entry key="Python" value="157" />
           <entry key="Scratch" value="16" />
           <entry key="XML" value="8" />
         </counts>
@@ -122,15 +121,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+            <state relative-caret-position="452">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <marker date="1568615928147" expanded="true" signature="1028:1371" ph="..." />
-                <marker date="1568615928147" expanded="true" signature="1487:2002" ph="..." />
+                <marker date="1568618952481" expanded="true" signature="1028:1371" ph="..." />
+                <marker date="1568618952481" expanded="true" signature="1487:2002" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,15 +162,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="472">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
                 <element signature="e#770#1098#0" />
-                <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
+                <marker date="1568619113829" expanded="true" signature="478:489" ph="..." />
               </folding>
             </state>
           </provider>
@@ -167,6 +178,16 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/images/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -181,7 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>filePathfilePath</find>
       <find>fileName</find>
       <find>STATIC_URL</find>
       <find>requests</find>
@@ -202,7 +222,6 @@
       <find>picutil</find>
       <find>os.path.abs</find>
       <find>heightheight</find>
-      <find>width</find>
       <find>save_path</find>
       <find>generatedgenerated</find>
       <find>get_outfile</find>
@@ -211,6 +230,8 @@
       <find>modelName</find>
       <find>modelPath</find>
       <find>resultPath</find>
+      <find>image</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,11 +266,11 @@
         <option value="$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py" />
         <option value="$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/preprocessing/preprocessing_factory.py" />
-        <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" />
         <option value="$PROJECT_DIR$/untitled8/settings.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" />
         <option value="$PROJECT_DIR$/learn/tests.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/action.py" />
+        <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" />
       </list>
     </option>
   </component>
@@ -338,13 +359,21 @@
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
@@ -793,16 +822,6 @@
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/model.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -813,21 +832,12 @@
     <entry file="file://$PROJECT_DIR$/static/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="das://b5c83250-40bf-4017-bcdc-03784bdef10d/schema/main/table/t_uinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -887,18 +897,6 @@
     <entry file="file://$PROJECT_DIR$/mysite.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-            <element signature="e#770#1098#0" />
-            <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -909,14 +907,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+        <state relative-caret-position="452">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
-            <marker date="1568615928147" expanded="true" signature="1028:1371" ph="..." />
-            <marker date="1568615928147" expanded="true" signature="1487:2002" ph="..." />
+            <marker date="1568618952481" expanded="true" signature="1028:1371" ph="..." />
+            <marker date="1568618952481" expanded="true" signature="1487:2002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <element signature="e#770#1098#0" />
+            <marker date="1568619113829" expanded="true" signature="478:489" ph="..." />
           </folding>
         </state>
       </provider>
