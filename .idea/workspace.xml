@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled8/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+            <state relative-caret-position="207">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
                 <marker date="1568278616619" expanded="true" signature="1028:1371" ph="..." />
@@ -191,25 +189,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-492">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="236">
+              <caret line="35" column="90" lean-forward="true" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -347,33 +335,12 @@
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
@@ -617,7 +584,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.2954796" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19294377" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.24255788" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24255788" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.20396914" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -626,7 +593,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33627343" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -849,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -892,13 +852,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+        <state relative-caret-position="207">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
             <marker date="1568278616619" expanded="true" signature="1028:1371" ph="..." />
             <marker date="1568278616619" expanded="true" signature="1487:2002" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="35" column="90" lean-forward="true" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
         </state>
       </provider>
     </entry>
