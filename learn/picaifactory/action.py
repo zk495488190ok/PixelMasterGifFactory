@@ -71,11 +71,9 @@ def upload(request):
 
     # httpPath = "static/picaifactory/" + openid + "." + file.name.split('.')[-1];
     httpPath = "static/picaifactory/img/" + openid + ".jpg"
-    filePath = "./" + httpPath
-    fileDir = os.path.abspath('../../static/picaifactory/img/')
-    if os.path.exists(fileDir) is False:
-        os.makedirs(fileDir)
+    filePath = os.path.abspath('static/picaifactory/img/' + openid + '.jpg')
 
+    fileDir = os.path.abspath('static/picaifactory/img')
     if os.path.exists(fileDir) is False:
         os.makedirs(fileDir)
 
@@ -128,8 +126,3 @@ def pIsAllowedFileSize(size):
 # 检测文件类型
 def pGetFileExtension(file):
     return os.path.splitext(file)[1]
-
-
-fileDir = os.path.abspath('../../static/picaifactory/img/')
-if os.path.exists(fileDir) is False:
-    os.makedirs(fileDir)

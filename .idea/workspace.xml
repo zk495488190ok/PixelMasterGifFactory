@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled8$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1568164147006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/untitled8$Test__learn.coverage" NAME="Test: learn Coverage Results" MODIFIED="1565001182118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/untitled8$action.coverage" NAME="action Coverage Results" MODIFIED="1568614794243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/picaifactory" />
+    <SUITE FILE_PATH="coverage/untitled8$action.coverage" NAME="action Coverage Results" MODIFIED="1568615539867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn/picaifactory" />
     <SUITE FILE_PATH="coverage/untitled8$views.coverage" NAME="views Coverage Results" MODIFIED="1565001143215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
     <SUITE FILE_PATH="coverage/untitled8$tests.coverage" NAME="tests Coverage Results" MODIFIED="1568614493710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
   </component>
@@ -32,23 +31,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -78,7 +61,7 @@
           <entry key="cell" value="19" />
           <entry key="dummy" value="35" />
           <entry key="md" value="21" />
-          <entry key="py" value="10167" />
+          <entry key="py" value="10195" />
           <entry key="sql" value="362" />
           <entry key="xml" value="22" />
         </counts>
@@ -87,7 +70,7 @@
         <counts>
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="10166" />
+          <entry key="Python" value="10194" />
           <entry key="SQL" value="49" />
           <entry key="Scratch" value="333" />
           <entry key="XML" value="22" />
@@ -107,20 +90,20 @@
           <entry key="sqlite_sequence" value="4" />
           <entry key="t7" value="2" />
           <entry key="t_func" value="2" />
-          <entry key="t_func_hot" value="4" />
+          <entry key="t_func_hot" value="5" />
           <entry key="t_uinfo" value="14" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="29" />
+          <entry key="Database Element" value="30" />
           <entry key="Image" value="45" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="156" />
           <entry key="Scratch" value="16" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -130,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -142,12 +125,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+            <state relative-caret-position="347">
+              <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <marker date="1568614804927" expanded="true" signature="1028:1371" ph="..." />
-                <marker date="1568614804927" expanded="true" signature="1487:2002" ph="..." />
+                <marker date="1568615928147" expanded="true" signature="1028:1371" ph="..." />
+                <marker date="1568615928147" expanded="true" signature="1487:2002" ph="..." />
               </folding>
             </state>
           </provider>
@@ -171,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
                 <element signature="e#770#1098#0" />
@@ -221,13 +204,13 @@
       <find>heightheight</find>
       <find>width</find>
       <find>save_path</find>
-      <find>resultPath</find>
       <find>generatedgenerated</find>
       <find>get_outfile</find>
       <find>infileinfile</find>
       <find>get_size</find>
       <find>modelName</find>
       <find>modelPath</find>
+      <find>resultPath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -355,12 +338,13 @@
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
-              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
@@ -415,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.action">
+  <component name="RunManager" selected="Django server.untitled8">
     <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <module name="untitled8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -622,20 +606,20 @@
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.2954796" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19294377" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24255788" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.24255788" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.20396914" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3296582" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.33627343" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296582" />
@@ -653,10 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://b12e72d2-0192-4bcb-a3d2-2353ea97d964/schema/main/table/sqlite_sequence" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b12e72d2-0192-4bcb-a3d2-2353ea97d964/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://9f92895b-9daa-4f56-b329-91a11efbee61/schema/main/table/t_uinfo" />
     <entry file="file://$PROJECT_DIR$/untitled8/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -708,6 +688,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="71" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -790,6 +773,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
           <caret line="88" column="11" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,28 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-            <element signature="e#770#1098#0" />
-            <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -913,14 +877,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+    <entry file="das://2cb8a181-e33e-45ab-b34a-d4b5e5f0b1d7/schema/main/table/t_func_hot">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <element signature="e#770#1098#0" />
+            <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
-            <marker date="1568614804927" expanded="true" signature="1028:1371" ph="..." />
-            <marker date="1568614804927" expanded="true" signature="1487:2002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <marker date="1568615928147" expanded="true" signature="1028:1371" ph="..." />
+            <marker date="1568615928147" expanded="true" signature="1487:2002" ph="..." />
           </folding>
         </state>
       </provider>
