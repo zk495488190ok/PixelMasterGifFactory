@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled8/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/picaifactory/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/action.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
           <entry key="cell" value="19" />
           <entry key="dummy" value="35" />
           <entry key="md" value="21" />
-          <entry key="py" value="10044" />
+          <entry key="py" value="10048" />
           <entry key="sql" value="362" />
           <entry key="xml" value="22" />
         </counts>
@@ -82,7 +82,7 @@
         <counts>
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="10043" />
+          <entry key="Python" value="10047" />
           <entry key="SQL" value="49" />
           <entry key="Scratch" value="333" />
           <entry key="XML" value="22" />
@@ -134,15 +134,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="374">
+              <caret line="74" column="4" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <marker date="1568278616619" expanded="true" signature="1028:1371" ph="..." />
-                <marker date="1568278616619" expanded="true" signature="1487:2002" ph="..." />
+                <marker date="1568613558568" expanded="true" signature="1028:1371" ph="..." />
+                <marker date="1568613558568" expanded="true" signature="1487:2002" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+            <state relative-caret-position="458">
+              <caret line="101" column="46" lean-forward="true" selection-start-line="100" selection-start-column="16" selection-end-line="101" selection-end-column="46" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
                 <element signature="e#770#1098#0" />
@@ -193,7 +193,7 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
@@ -278,10 +278,10 @@
         <option value="$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py" />
         <option value="$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/preprocessing/preprocessing_factory.py" />
-        <option value="$PROJECT_DIR$/learn/picaifactory/action.py" />
         <option value="$PROJECT_DIR$/learn/tests.py" />
         <option value="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" />
         <option value="$PROJECT_DIR$/untitled8/settings.py" />
+        <option value="$PROJECT_DIR$/learn/picaifactory/action.py" />
       </list>
     </option>
   </component>
@@ -335,7 +335,34 @@
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="picai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled8" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
@@ -816,18 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-            <element signature="e#770#1098#0" />
-            <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/oLKS94rBWjk3heopPxxb7YQ4wtWM.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -850,22 +865,34 @@
     <entry file="file://$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <marker date="1568278616619" expanded="true" signature="1028:1371" ph="..." />
-            <marker date="1568278616619" expanded="true" signature="1487:2002" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled8/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="35" column="90" lean-forward="true" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="101" column="46" lean-forward="true" selection-start-line="100" selection-start-column="16" selection-end-line="101" selection-end-column="46" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <element signature="e#770#1098#0" />
+            <marker date="1568597159347" expanded="true" signature="478:489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="74" column="4" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <marker date="1568613558568" expanded="true" signature="1028:1371" ph="..." />
+            <marker date="1568613558568" expanded="true" signature="1487:2002" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

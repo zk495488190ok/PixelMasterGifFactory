@@ -72,6 +72,10 @@ def upload(request):
     # httpPath = "static/picaifactory/" + openid + "." + file.name.split('.')[-1];
     httpPath = "static/picaifactory/img/" + openid + ".jpg";
     filePath = "./" + httpPath
+
+    if os.path.exists(filePath) is False:
+        os.makedirs(filePath)
+
     with open(filePath,"wb+") as f:
         # 分块写入
         for chunk in file.chunks():
