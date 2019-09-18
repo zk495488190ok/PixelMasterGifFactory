@@ -66,8 +66,8 @@ class picaiutil:
 
                 height = image.shape[0]
                 width = image.shape[1]
-                if width * height > 400000 :
-                    scale = 800 / max(width,height);
+                if width * height > 300000 :
+                    scale = 600 / max(width,height);
                     width = int(width * scale);
                     height = int(height * scale);
 

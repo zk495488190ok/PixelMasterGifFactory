@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+    .cell{
+        margin-top: 10px;
+        width: 300px;
+        overflow: hidden;
+        background: #CCC;
+        float: left;
+        margin-left: 10px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>App Users</title>
+</head>
+    {% for item in users %}
+        <div class="cell">
+{#            <div style="visibility: hidden;">{{ item.id }}</div>#}
+{#            <div style="visibility: hidden;">标识:{{ item.openid }}</div>#}
+            <div>昵称{{ item.name }}</div>
+            <img src="{{ item.icon }}" />
+            <div>功能ID:{{ item.func_id }}</div>
+            <div>使用次数:{{ item.func_use_count }}</div>
+            <div>最后一次生成图:</div>
+            <img style="width: 132px;height: 132px;" src="../../static/picaifactory/result/{{ item.openid }}.jpg" />
+        </div>
+    {% endfor %}
+
+</body>
+</html>

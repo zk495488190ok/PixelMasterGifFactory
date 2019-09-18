@@ -19,8 +19,8 @@ class sqldb:
             with sqldb._instance_lock:
                 if not hasattr(sqldb, "_instance"):
                     sqldb._instance = object.__new__(cls)
-                    sql_path = os.path.abspath('db.sqlite3')
-                    sqldb._instance.__conn = sqlite3.connect('', check_same_thread=False)
+                    sql_path = os.path.abspath('../../db.sqlite3')
+                    sqldb._instance.__conn = sqlite3.connect('db.sqlite3', check_same_thread=False)
                     sqldb._instance.__cursor = sqldb._instance.__conn.cursor()
                     print('数据库连接成功')
                     #sqldb._instance.createTables()
@@ -59,6 +59,16 @@ class sqldb:
 
         self.__conn.commit()
         pass
+
+    def getUsers(self):
+        query_sql_str = 'select t_uinfo.*,hot.func_id,hot.func_use_count from t_uinfo left join t_func_hot as hot on t_uinfo.openid = hot.openid'
+        self.__cursor.execute(query_sql_str)
+        res = self.__cursor.fetchall()
+        ret_arr = []
+        for item in res:
+            ret_arr.append({'id':item[0],'openid':item[1],'name':item[2],'icon':item[3],'func_id':item[5],'func_use_count':item[6]})
+        return ret_arr
+
 
     '''
     记录用户登录信息

@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from learn import views as learn_views  # new
 from learn.picaifactory import action as picaiafactory_actions  # new
+from learn.bgmgr.users import users #new
 
 urlpatterns = [
 
@@ -33,7 +34,9 @@ urlpatterns = [
     url(r'^picai/recoreUinfo/', picaiafactory_actions.recoreUinfo),
     url(r'^picai/recoredFuncUse/', picaiafactory_actions.recoredFuncUse),
 
+    #后台管理
     url(r'^admin/', admin.site.urls),
+    url(r'^bgmgr/users/', users.index),
 ]
 
 
