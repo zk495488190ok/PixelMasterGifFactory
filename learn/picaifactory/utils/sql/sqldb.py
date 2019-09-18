@@ -56,7 +56,7 @@ class sqldb:
 
 
 
-        t_func_hot = """create table t_func
+        t_func_hot = """create table if not exists t_func
                         (
                           id        INTEGER
                             primary key
