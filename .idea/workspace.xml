@@ -82,7 +82,7 @@
           <entry key="dummy" value="35" />
           <entry key="html" value="485" />
           <entry key="md" value="21" />
-          <entry key="py" value="11034" />
+          <entry key="py" value="11036" />
           <entry key="sql" value="495" />
           <entry key="xml" value="22" />
         </counts>
@@ -92,7 +92,7 @@
           <entry key="HTML" value="485" />
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="11033" />
+          <entry key="Python" value="11035" />
           <entry key="SQL" value="60" />
           <entry key="Scratch" value="455" />
           <entry key="XML" value="22" />
@@ -219,14 +219,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="357">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
-                <marker date="1568788776771" expanded="true" signature="80:81" ph="..." />
-                <marker date="1568788776771" expanded="true" signature="80:164" ph="..." />
-                <marker date="1568788776771" expanded="true" signature="877:2189" ph="..." />
-                <marker date="1568788776771" expanded="true" signature="1750:2189" ph="..." />
+                <marker date="1568790701251" expanded="true" signature="80:81" ph="..." />
+                <marker date="1568790701251" expanded="true" signature="80:164" ph="..." />
+                <marker date="1568790701251" expanded="true" signature="845:2157" ph="..." />
+                <marker date="1568790701251" expanded="true" signature="1718:2157" ph="..." />
               </folding>
             </state>
           </provider>
@@ -715,7 +715,7 @@
     <frame x="0" y="23" width="1920" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.2550586" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.2550586" />
       <window_info id="Favorites" order="2" sideWeight="0.50080514" side_tool="true" weight="0.2550586" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.2954796" />
@@ -730,7 +730,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1008,14 +1008,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1568788776771" expanded="true" signature="80:81" ph="..." />
-            <marker date="1568788776771" expanded="true" signature="80:164" ph="..." />
-            <marker date="1568788776771" expanded="true" signature="877:2189" ph="..." />
-            <marker date="1568788776771" expanded="true" signature="1750:2189" ph="..." />
+            <marker date="1568790701251" expanded="true" signature="80:81" ph="..." />
+            <marker date="1568790701251" expanded="true" signature="80:164" ph="..." />
+            <marker date="1568790701251" expanded="true" signature="845:2157" ph="..." />
+            <marker date="1568790701251" expanded="true" signature="1718:2157" ph="..." />
           </folding>
         </state>
       </provider>
