@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn/bgmgr/users/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bgmgr/users/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/picai/picaiutil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/picaifactory/img/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/picaifactory/result/oatGa5YE9zO2MM9VCGmAyWxccJNc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled8/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled8/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +82,7 @@
           <entry key="dummy" value="35" />
           <entry key="html" value="485" />
           <entry key="md" value="21" />
-          <entry key="py" value="11024" />
+          <entry key="py" value="11034" />
           <entry key="sql" value="495" />
           <entry key="xml" value="22" />
         </counts>
@@ -100,7 +92,7 @@
           <entry key="HTML" value="485" />
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="11023" />
+          <entry key="Python" value="11033" />
           <entry key="SQL" value="60" />
           <entry key="Scratch" value="455" />
           <entry key="XML" value="22" />
@@ -146,11 +138,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bgmgr/users/users.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#img#1;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -224,17 +216,17 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
-                <marker date="1568787714892" expanded="true" signature="80:81" ph="..." />
-                <marker date="1568787714892" expanded="true" signature="80:164" ph="..." />
-                <marker date="1568787714892" expanded="true" signature="851:2163" ph="..." />
-                <marker date="1568787714892" expanded="true" signature="1724:2163" ph="..." />
+                <marker date="1568788776771" expanded="true" signature="80:81" ph="..." />
+                <marker date="1568788776771" expanded="true" signature="80:164" ph="..." />
+                <marker date="1568788776771" expanded="true" signature="877:2189" ph="..." />
+                <marker date="1568788776771" expanded="true" signature="1750:2189" ph="..." />
               </folding>
             </state>
           </provider>
@@ -340,8 +332,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/console_1.sql" />
         <option value="$PROJECT_DIR$/learn/bgmgr/users/users.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/console.sql" />
-        <option value="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" />
         <option value="$PROJECT_DIR$/templates/bgmgr/users/users.html" />
+        <option value="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" />
       </list>
     </option>
   </component>
@@ -441,7 +433,7 @@
               <item name="untitled8" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="picaifactory" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled8" type="b2602c69:ProjectViewProjectNode" />
@@ -723,13 +715,13 @@
     <frame x="0" y="23" width="1920" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.2550586" />
       <window_info id="Favorites" order="2" sideWeight="0.50080514" side_tool="true" weight="0.2550586" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.2954796" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19294377" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31532526" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5192944" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.415656" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -738,7 +730,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33627343" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -992,20 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <marker date="1568787714892" expanded="true" signature="80:81" ph="..." />
-            <marker date="1568787714892" expanded="true" signature="80:164" ph="..." />
-            <marker date="1568787714892" expanded="true" signature="851:2163" ph="..." />
-            <marker date="1568787714892" expanded="true" signature="1724:2163" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-87">
@@ -1020,10 +998,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bgmgr/users/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+            <marker date="1568788776771" expanded="true" signature="80:81" ph="..." />
+            <marker date="1568788776771" expanded="true" signature="80:164" ph="..." />
+            <marker date="1568788776771" expanded="true" signature="877:2189" ph="..." />
+            <marker date="1568788776771" expanded="true" signature="1750:2189" ph="..." />
           </folding>
         </state>
       </provider>

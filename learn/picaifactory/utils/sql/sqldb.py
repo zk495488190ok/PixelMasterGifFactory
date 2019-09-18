@@ -19,8 +19,9 @@ class sqldb:
             with sqldb._instance_lock:
                 if not hasattr(sqldb, "_instance"):
                     sqldb._instance = object.__new__(cls)
-                    sql_path = os.path.abspath('../../db.sqlite3')
-                    sqldb._instance.__conn = sqlite3.connect('db.sqlite3', check_same_thread=False)
+                    sql_path = os.path.abspath('db.sqlite3')
+                    print(sql_path)
+                    sqldb._instance.__conn = sqlite3.connect(sql_path, check_same_thread=False)
                     sqldb._instance.__cursor = sqldb._instance.__conn.cursor()
                     print('数据库连接成功')
                     #sqldb._instance.createTables()
