@@ -23,7 +23,7 @@ class sqldb:
                     sqldb._instance.__conn = sqlite3.connect("db.sqlite3", check_same_thread=False)
                     sqldb._instance.__cursor = sqldb._instance.__conn.cursor()
                     print('数据库连接成功')
-                    #sqldb._instance.createTables()
+                    sqldb._instance.createTables()
         return sqldb._instance
 
     '''
@@ -53,6 +53,18 @@ class sqldb:
                         )"""
         self.__cursor.execute(t_func_hot)
         print('创建功能使用热度表')
+
+
+
+        t_func_hot = """create table t_func
+                        (
+                          id        INTEGER
+                            primary key
+                          autoincrement,
+                          func_name text not null
+                        );"""
+        self.__cursor.execute(t_func_hot)
+        print('创建功能表')
 
 
         print('---- 创建数据库表 End----')

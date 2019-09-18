@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e223932b-2948-4691-a4f8-7ebed7e5cfb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbbak.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +48,18 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="dbbak" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbbak" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dbbak" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="t_func_hot: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -82,7 +92,7 @@
           <entry key="dummy" value="35" />
           <entry key="html" value="485" />
           <entry key="md" value="21" />
-          <entry key="py" value="11036" />
+          <entry key="py" value="11049" />
           <entry key="sql" value="495" />
           <entry key="xml" value="22" />
         </counts>
@@ -92,7 +102,7 @@
           <entry key="HTML" value="485" />
           <entry key="Markdown" value="21" />
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="11035" />
+          <entry key="Python" value="11048" />
           <entry key="SQL" value="60" />
           <entry key="Scratch" value="455" />
           <entry key="XML" value="22" />
@@ -107,12 +117,12 @@
           <entry key="jpg" value="31" />
           <entry key="md" value="2" />
           <entry key="py" value="180" />
-          <entry key="sql" value="22" />
+          <entry key="sql" value="23" />
           <entry key="sqlite3-journal" value="2" />
           <entry key="sqlite_master" value="5" />
           <entry key="sqlite_sequence" value="4" />
           <entry key="t7" value="2" />
-          <entry key="t_func" value="2" />
+          <entry key="t_func" value="4" />
           <entry key="t_func_hot" value="6" />
           <entry key="t_uinfo" value="17" />
           <entry key="xml" value="8" />
@@ -120,13 +130,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="35" />
+          <entry key="Database Element" value="37" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="54" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="180" />
-          <entry key="SQL" value="2" />
+          <entry key="SQL" value="3" />
           <entry key="Scratch" value="20" />
           <entry key="XML" value="8" />
         </counts>
@@ -138,110 +148,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bgmgr/users/users.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#img#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/django/template/loader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/schema/main/table/t_func_hot">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/bgmgr/users/users.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-                <marker date="1568777150323" expanded="true" signature="336:341" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            <state relative-caret-position="286">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
-                <marker date="1568790701251" expanded="true" signature="80:81" ph="..." />
-                <marker date="1568790701251" expanded="true" signature="80:164" ph="..." />
-                <marker date="1568790701251" expanded="true" signature="845:2157" ph="..." />
-                <marker date="1568790701251" expanded="true" signature="1718:2157" ph="..." />
+                <marker date="1568792192504" expanded="true" signature="80:81" ph="..." />
+                <marker date="1568792192504" expanded="true" signature="80:164" ph="..." />
+                <marker date="1568792192504" expanded="true" signature="844:2499" ph="..." />
+                <marker date="1568792192504" expanded="true" signature="2060:2499" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+        <entry file="das://8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/schema/main/table/t_func.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <marker date="1568621085242" expanded="true" signature="1039:1382" ph="..." />
-                <marker date="1568621085242" expanded="true" signature="1498:2013" ph="..." />
-                <marker date="1568621085242" expanded="true" signature="3141:3710" ph="..." />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -730,13 +657,13 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33627343" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32960597" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.15069222" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.15069222" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,16 +673,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/preprocessing/lenet_preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/picai/preprocessing/preprocessing_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2057">
@@ -945,7 +862,7 @@
     <entry file="file://$PROJECT_DIR$/learn/bgmgr/users/users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
             <marker date="1568777150323" expanded="true" signature="336:341" ph="..." />
@@ -959,6 +876,18 @@
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1568621085242" expanded="true" signature="1039:1382" ph="..." />
+            <marker date="1568621085242" expanded="true" signature="1498:2013" ph="..." />
+            <marker date="1568621085242" expanded="true" signature="3141:3710" ph="..." />
           </folding>
         </state>
       </provider>
@@ -977,45 +906,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/django/template/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+    <entry file="das://8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/schema/main/table/t_func">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/picaifactory/action.py">
+    <entry file="file://$PROJECT_DIR$/../untitled10/venv/lib/python3.7/site-packages/django/template/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1568621085242" expanded="true" signature="1039:1382" ph="..." />
-            <marker date="1568621085242" expanded="true" signature="1498:2013" ph="..." />
-            <marker date="1568621085242" expanded="true" signature="3141:3710" ph="..." />
-          </folding>
+        <state relative-caret-position="-136">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bgmgr/users/users.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#1;n#div#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="das://8fbc2ffc-d45d-4ac7-b315-5b6986e18c3a/schema/main/table/t_func.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learn/picaifactory/utils/sql/sqldb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        <state relative-caret-position="286">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1568790701251" expanded="true" signature="80:81" ph="..." />
-            <marker date="1568790701251" expanded="true" signature="80:164" ph="..." />
-            <marker date="1568790701251" expanded="true" signature="845:2157" ph="..." />
-            <marker date="1568790701251" expanded="true" signature="1718:2157" ph="..." />
+            <marker date="1568792192504" expanded="true" signature="80:81" ph="..." />
+            <marker date="1568792192504" expanded="true" signature="80:164" ph="..." />
+            <marker date="1568792192504" expanded="true" signature="844:2499" ph="..." />
+            <marker date="1568792192504" expanded="true" signature="2060:2499" ph="..." />
           </folding>
         </state>
       </provider>
