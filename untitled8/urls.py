@@ -33,6 +33,7 @@ urlpatterns = [
     url(r'^picai/upload/', picaiafactory_actions.upload),
     url(r'^picai/recoreUinfo/', picaiafactory_actions.recoreUinfo),
     url(r'^picai/recoredFuncUse/', picaiafactory_actions.recoredFuncUse),
+    url(r'^picai/mergeFace/', picaiafactory_actions.mergeFace),
 
     #后台管理
     url(r'^admin/', admin.site.urls),

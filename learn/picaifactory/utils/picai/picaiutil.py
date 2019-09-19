@@ -14,6 +14,15 @@ from learn.picaifactory.utils.picai.preprocessing import preprocessing_factory
 import learn.picaifactory.utils.picai.reader as reader
 import learn.picaifactory.utils.picai.model as model
 
+
+import requests
+import simplejson
+import json
+import base64
+
+apikey = "rSiOWwOp_fgdXqArclpcCJf52D2LETbh"
+apiSecret = "6BBgYV9viRzt9dZne_kVRCqjBa4T9veT"
+
 class picaiutil:
     # _instance_lock = threading.Lock()
     # _models = {}
@@ -28,20 +37,55 @@ class picaiutil:
     #                 picaiutil._instance = object.__new__(cls)
     #     return picaiutil._instance
 
+    # 人脸识别
+    def find_face(self,imgpath):
+        print("识别人脸")
+        http_url = 'https://api-cn.faceplusplus.com/facepp/v3/detect'
+        data = {"api_key": apikey,
+                "api_secret": apiSecret, "image_url": imgpath, "return_landmark": 1}
+        files = {"image_file": open(imgpath, "rb")}
+        response = requests.post(http_url, data=data, files=files)
+        req_con = response.content.decode('utf-8')
+        req_dict = json.JSONDecoder().decode(req_con)
+        this_json = simplejson.dumps(req_dict)
+        this_json2 = simplejson.loads(this_json)
+        faces = this_json2['faces']
+        if len(faces) <= 0:
+            return -1
+        list0 = faces[0]
+        rectangle = list0['face_rectangle']
+        return rectangle
+
+    # AI换脸
+    def merge_face(self,image_url_1, image_url_2, image_url, number):
+        ff1 = self.find_face(image_url_1)
+        ff2 = self.find_face(image_url_2)
+        if ff1 == -1 or ff2 == -1:
+            return -1
+        rectangle1 = str(str(ff1['top']) + "," + str(ff1['left']) + "," + str(ff1['width']) + "," + str(ff1['height']))
+        rectangle2 = str(ff2['top']) + "," + str(ff2['left']) + "," + str(ff2['width']) + "," + str(ff2['height'])
+        url_add = "https://api-cn.faceplusplus.com/imagepp/v1/mergeface"
+        f1 = open(image_url_1, 'rb')
+        f1_64 = base64.b64encode(f1.read())
+        f1.close()
+        f2 = open(image_url_2, 'rb')
+        f2_64 = base64.b64encode(f2.read())
+        f2.close()
+        data = {"api_key": apikey, "api_secret": apiSecret,
+                "template_base64": f1_64, "template_rectangle": rectangle1,
+                "merge_base64": f2_64, "merge_rectangle": rectangle2, "merge_rate": number}
+
+        response = requests.post(url_add, data=data)
+        req_con = response.content.decode('utf-8')
+        req_dict = json.JSONDecoder().decode(req_con)
+        result = req_dict['result']
+        imgdata = base64.b64decode(result)
+        file = open(image_url, 'wb')
+        file.write(imgdata)
+        print('换脸完成')
 
 
-    def initModels(self):
-        models = {}
-        print('初始化训练模型')
-        start = time.time()
-        for url in glob.glob('./static/picaifactory/models/*.t7'):
-            net = cv2.dnn.readNetFromTorch(url)
-            models[url] = net
-        end = time.time()
-        print('初始化完成')
-        print("用时：{:.2f}秒".format(end - start))
-        return models
-
+    # 风格转换
     def styleTransform(self,modelName, imgName):
         modelPath = os.path.abspath('static/picaifactory/models/'+modelName)
         imgPath = os.path.abspath('static/picaifactory/img/' + imgName)
@@ -111,15 +155,16 @@ class picaiutil:
                     print('生成路径:%s.' % generated_file)
                     return ''
 
-    def compress_image(self,filepath,outfilepath):
+    def compress_image(self,filepath,outfilepath,maxWH):
         ysimg = Image.open(filepath)
         w,h = ysimg.size
-        if min(w,h) > 500:
-            scale = 500 / min(w, h);
+        if min(w,h) > maxWH:
+            scale = maxWH / min(w, h);
             w = int(w * scale);
             h = int(h * scale);
 
         ysimg =ysimg.resize((w,h),Image.ANTIALIAS)
+        ysimg = ysimg.convert("RGB")
         ysimg.save(outfilepath)
 
 picutil = picaiutil()
